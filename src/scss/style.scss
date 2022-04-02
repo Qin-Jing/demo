@@ -1,0 +1,65 @@
+@import './iconfont/iconfont.css';
+@import './news.scss';
+
+a {
+  text-decoration: none;
+}
+
+.required {
+  color: #FF6B08;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.el-table {
+  tr td a {
+    color: #428df5;
+    cursor: pointer;
+    margin-right: 20px;
+    word-break: break-all;
+    white-space: nowrap;
+  }
+  .el-dropdown {
+    i {
+      color: #4285F4 !important;
+    }
+  }
+}
+
+.el-dropdown-menu .el-dropdown-menu__item {
+  font-size: 14px;
+  color: #333;
+}
+
+.el-select-dropdown__item,
+.el-cascader-node {
+  max-width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml20 {
+  margin-left: 20px;
+} 
